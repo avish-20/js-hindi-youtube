@@ -14,19 +14,25 @@ if (true) {
 // console.log(c);
 
 
-function one(){
-    const username = "hitesh"
+// function one(){
+//     const username = "hitesh"
 
+//     function two(){
+//         const website = "youtube"
+//         console.log(username);
+//     }
+//     // console.log(website);
+
+//      two()
+
+// }
+function one(){
+    const username = "avish"
     function two(){
-        const website = "youtube"
         console.log(username);
     }
-    // console.log(website);
-
-     two()
-
 }
-
+//closure - child function apne parent function ko access kr paye isko hi closure kehte h
 // one()
 
 if (true) {
