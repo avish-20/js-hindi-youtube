@@ -30,3 +30,9 @@ newDate.toLocaleString('default', {
     
 })
 
+let myDte = new Date();
+let myTimeStamp1 = Date.now();
+console.log(myTimeStamp1);
+let mycr = new Date("01-02-2024");
+console.log(mycr.getTime());
+mycr.toLocaleDateString('Dafault',)

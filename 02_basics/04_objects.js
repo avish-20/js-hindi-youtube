@@ -79,4 +79,9 @@ console.log(instructor);
     {},
     {}
 ]
+let {courseInstructor} = course;
+console.log(courseInstructor);
+//this is known as destructuring used in react js
+const fn = ({courseInstructor})=>{
 
+}
