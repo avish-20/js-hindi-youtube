@@ -27,10 +27,10 @@ const user = {
 //     console.log(this.username);
 // }
 
-const chai =  () => {
-    let username = "hitesh"
-    console.log(this);
-}
+// const chai =  () => {
+//     let username = "hitesh"
+//     console.log(this);
+// }
 
 
 // chai()
@@ -43,12 +43,17 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+// const addTwo = (num1, num2) => ({username: "hitesh"})
 
 
-console.log(addTwo(3, 4))
+// console.log(addTwo(3, 4))
 
 
 // const myArray = [2, 5, 3, 7, 8]
 
 // myArray.forEach()
+function one(){
+    let username = "avish"
+      console.log(this);
+}
+one();
